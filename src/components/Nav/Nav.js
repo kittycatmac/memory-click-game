@@ -8,7 +8,7 @@ const Nav = ({subtitle, score, topScore}) => (
   <div className="nav-header">
     <ul>
       <li>
-        <h1>Clicky Game</h1>
+        <h1>Memory Clicky</h1>
       </li>
       <li>{subtitle}</li>
       <li>
