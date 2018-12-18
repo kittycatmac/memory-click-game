@@ -2,6 +2,7 @@
   "name": "memory-click-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kittycatmac.github.io/memory-click-game/",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -9,6 +10,7 @@
     "shuffle-array": "^1.0.1"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,5 +24,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
